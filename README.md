@@ -6,8 +6,8 @@
 
 ### Links
 
-- FEM Solution Site: [Add solution URL here](<[https:/](https://www.frontendmentor.io/solutions/profile-card-using-tailwind-gTraXn8sNL)>)
-- Live Site URL: [Add live site URL here](https://fem-profilecard-main-toolboxal.netlify.app/)
+- [FEM Solution Site:](<[https:/](https://www.frontendmentor.io/solutions/profile-card-using-tailwind-gTraXn8sNL)>)
+- [Live Site URL:](https://fem-profilecard-main-toolboxal.netlify.app/)
 
 ## My process
 
