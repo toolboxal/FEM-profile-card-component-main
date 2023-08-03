@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    --color-primary: hsl(185, 75%, 39%);
+    --color-dark-blue: hsl(229, 23%, 23%);
+    --color-grey: hsl(227, 10%, 46%);
+  }
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Frontend Mentor | Profile card component</title>
+  </head>
+  <body>
+    <main
+      class="relative flex h-screen items-center justify-center overflow-hidden bg-primary font-body"
+    >
+      <img
+        class="absolute left-0 top-0 -translate-x-1/2 -translate-y-1/2 xl:-translate-x-1/4"
+        src="../images/bg-pattern-top.svg"
+        alt="circle-top"
+      />
+      <img
+        class="absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2 xl:translate-x-1/4"
+        src="../images/bg-pattern-bottom.svg"
+        alt="circle-bottom"
+      />
+      <article
+        class="z-10 mx-[24.5px] w-[350px] overflow-hidden rounded-[15px] bg-white shadow-2xl"
+      >
+        <div
+          class="relative h-[140px] bg-[url('../images/bg-pattern-card.svg')]"
+        >
+          <div
+            class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 overflow-hidden rounded-full border-4 border-white"
+          >
+            <img src="../images/image-victor.jpg" alt="avatar" />
+          </div>
+        </div>
+        <div class="pb-6 pt-16 text-center">
+          <p class="text-heading font-bold">
+            Victor Crest <span class="ml-1 font-light text-darkGray">26</span>
+          </p>
+          <p class="mt-2 text-regular text-darkGray">London</p>
+        </div>
+        <div
+          class="flex items-center justify-between border-t border-slate-200 px-12 py-6 text-center"
+        >
+          <div>
+            <p class="text-heading font-bold">80K</p>
+            <p class="text-small tracking-[1.5px] text-darkGray">Followers</p>
+          </div>
+          <div>
+            <p class="text-heading font-bold">803K</p>
+            <p class="text-small tracking-[1.5px] text-darkGray">Likes</p>
+          </div>
+          <div>
+            <p class="text-heading font-bold">1.4K</p>
+            <p class="text-small tracking-[1.5px] text-darkGray">Photos</p>
+          </div>
+        </div>
+      </article>
+      <div class="attribution absolute bottom-0 z-10 pb-2 text-slate-200">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="italic text-indigo-600"
+          >Frontend Mentor</a
+        >. Coded by <span class="italic text-indigo-600">toolboxal</span>.
+      </div>
+    </main>
+  </body>
+</html>
